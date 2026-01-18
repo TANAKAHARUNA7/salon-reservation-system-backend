@@ -1,11 +1,11 @@
 # 💇 美容室予約システム（Backend担当）
 本システムは、美容室の予約管理を中心に、
-サロン情報・会員・認証機能を一元的に管理できるWebシステムである。
+サロン情報・会員・認証機能を一元的に管理できるWebシステムです。
 
 
 ---
 
-## 📌 概要（Overview）
+## 📌 概要
 
 - 美容室の予約業務を想定した Webアプリケーション
 - Client・Designer・Managerで **役割別の機能分離**
@@ -17,9 +17,9 @@
 
 | 分類 | 使用技術 | 補足 |
 |---|---|---|
-| Backend | PHP 8.x | 予約ロジック・API 実装 |
-| Web Server | Nginx | リバースプロキシ |
-| Database | MySQL 8.x | 予約・ユーザー・サービス管理 |
+| Backend | PHP 8.2 | 予約ロジック・API 実装 |
+| Web Server | Nginx | 外部からのリクエストを受け取り、PHP-FPM に処理を中継 |
+| Database | MySQL 8.0 | 予約・ユーザー・サービス管理 |
 | Infra / Dev | Docker Compose | Nginx / PHP-FPM / MySQL をコンテナ管理 |
 | Router | AltoRouter | 軽量ルーティング |
 | その他 | Postman | API 動作確認 |
@@ -66,7 +66,7 @@
 ---
 
 
-## 🧑‍💻 担当した役割（My Role）
+## 🧑‍💻 担当した役割
 
 - バックエンド全般を担当
 - RESTful API の設計・実装
