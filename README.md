@@ -8,7 +8,7 @@
 ---
 
 ## デモ・リポジトリ
-- GitHub：(https://github.com/gsc-lab/cs25-3-backend-refactor.git) 
+- GitHub：(https://github.com/gsc-lab/cs25-3-backend) 
 - 画面例  
   - 予約作成画面  
   - 予約一覧画面  
